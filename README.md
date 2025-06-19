@@ -1,4 +1,4 @@
-# Tridib Das — Portfolio & Research Website
+# Tridib Das — Portfolio Website
 
 Welcome to my personal website! I'm **Tridib Das**, a B.Tech Computer Science and Engineering student at Vellore Institute of Technology, Amaravati. I'm passionate about AI, Web3, and building impactful solutions. Here you'll find my projects, publications, experiences, and more.
 
