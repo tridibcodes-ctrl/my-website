@@ -5,12 +5,11 @@ const nextConfig = {
         protocol: "https",
         hostname: "**",
       },
-      {
-        protocol: "http",
-        hostname: "**",
-      },
     ],
   },
+  output: 'export',
+  basePath: '/my-website',
+  assetPrefix: '/my-website/',
 };
 
 export default nextConfig;
