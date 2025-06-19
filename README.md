@@ -34,18 +34,6 @@ cd my-website
 npm install
 ```
 
-### Running Locally
-```bash
-npm run dev
-```
-Then open [http://localhost:3000](http://localhost:3000) in your browser.
-
----
-
-## Deployment
-You can deploy this site easily with [Vercel](https://vercel.com/) or GitHub Pages. See the official Next.js docs for more info.
-
----
 
 ## Credits & License
 This website is based on an open-source template by [tovacinni](https://github.com/tovacinni/research-website-template), customized by me.
