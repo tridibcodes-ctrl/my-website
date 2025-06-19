@@ -8,32 +8,29 @@ export interface AboutMe {
   blogUrl?: string;
   cvUrl?: string;
   googleScholarUrl?: string;
-  twitterUsername?: string;
   githubUsername?: string;
   linkedinUsername?: string;
   funDescription?: string; // Gets placed in the left sidebar
   secretDescription?: string; // Gets placed in the bottom
   altName?: string;
   institutionUrl?: string;
+  researchGateUrl?: string;
 }
 
 export const aboutMe: AboutMe = {
-  name: "Jane R. Smith",
-  title: "Ph.D. Candidate",
-  institution: "Stanford University",
-  // Note that links work in the description
+  name: "Tridib Das",
+  title: "B.Tech, Computer Science and Engineering Student",
+  institution: "Vellore Institute of Technology, Amaravati",
   description:
-    "I'm a final-year <a href='https://www.stanford.edu'>PhD candidate</a> working at the intersection of causal inference and machine learning. My research focuses on developing robust, interpretable systems that can reason about cause and effect in complex environments.",
-  email: "______@stanford.edu",
+    "Aspiring developer and researcher with a passion for AI, Web3, and building impactful solutions. Finalist at Technova Hackathon, IEEE-published author, and contributor to open source. Skilled in Python, Java, Solidity, TensorFlow, React, and more. Open to collaboration and new opportunities!",
+  email: "tridibplaystore@gmail.com",
   imageUrl:
-    "https://images.unsplash.com/photo-1581481615985-ba4775734a9b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  googleScholarUrl: "https://scholar.google.com/citations?user=bWtMl_MAAAAJ",
-  githubUsername: "janesmith",
-  linkedinUsername: "janesmith",
-  twitterUsername: "janesmith",
+    "https://i.postimg.cc/3wVKtf8V/IMG-20250221-162030555-EDIT-magicstudio-vo9igzb6ysp.png",
+  researchGateUrl: "https://www.researchgate.net/profile/Tridib-Das-5",
+  githubUsername: "tridibcodes-ctrl",
+  linkedinUsername: "tridib-das-a85104283",
   blogUrl: "https://",
   cvUrl: "https://",
-  institutionUrl: "https://www.stanford.edu",
   // altName: "",
   // secretDescription: "I like dogs.",
 };

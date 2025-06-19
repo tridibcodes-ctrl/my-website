@@ -7,9 +7,11 @@ import { aboutMe } from "@/data/aboutme";
 import { NewsEntry } from "@/components/news-entry";
 import { newsData } from "@/data/news";
 import { ExperienceEntry } from "@/components/experience-entry";
-import { experienceData } from "@/data/experience";
+import { achievementData } from "@/data/experience";
 import { PortfolioEntry } from "@/components/portfolio-entry";
 import { portfolioData } from "@/data/portfolio";
+import { SkillsEntry } from "@/components/skills-entry";
+import { skillsData } from "@/data/skills";
 import { sectionOrder, Section } from "@/data/section-order";
 
 export default function Home() {
@@ -95,18 +97,18 @@ export default function Home() {
                       </section>
                     )
                   );
-                case Section.Experience:
+                case Section.Achievements:
                   return (
-                    experienceData.length > 0 && (
+                    achievementData.length > 0 && (
                       <section key={sectionName}>
                         <h2 className="font-serif text-md mb-12 tracking-wide uppercase">
-                          Experience
+                          Achievements
                         </h2>
                         <div className="space-y-12">
-                          {experienceData.map((experience, index) => (
+                          {achievementData.map((achievement, index) => (
                             <ExperienceEntry
                               key={index}
-                              experience={experience}
+                              experience={achievement}
                             />
                           ))}
                         </div>
@@ -125,6 +127,17 @@ export default function Home() {
                             <PortfolioEntry key={index} portfolio={portfolio} />
                           ))}
                         </div>
+                      </section>
+                    )
+                  );
+                case Section.Skills:
+                  return (
+                    skillsData.length > 0 && (
+                      <section key={sectionName}>
+                        <h2 className="font-serif text-md mb-12 tracking-wide uppercase">
+                          Skills
+                        </h2>
+                        <SkillsEntry skills={skillsData} />
                       </section>
                     )
                   );

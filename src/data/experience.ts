@@ -1,30 +1,27 @@
-export interface Experience {
+export interface Achievement {
   date: string;
   title: string;
   company: string;
   description?: string;
-  advisor?: string;
-  manager?: string;
-  companyUrl?: string;
 }
 
-export const experienceData: Experience[] = [
+export const achievementData: Achievement[] = [
   {
-    date: "Summer 2023",
-    title: "Research Intern",
-    company: "DeepMind",
-    description:
-      "Developed novel algorithms for causal structure learning in reinforcement learning settings",
-    advisor: "Peter Wang",
-    companyUrl: "https://deepmind.com",
+    date: "2025",
+    title: "Finalist (Top 8)",
+    company: "Technova Hackathon (HashChat)",
+    description: "Developed a decentralized chat platform; reached Top 8 in national hackathon.",
   },
   {
-    date: "Summer 2022",
-    title: "Research Intern",
-    company: "Google Research",
-    description:
-      "Worked on improving robustness of large language models to distribution shifts",
-    manager: "Elise Brown",
-    companyUrl: "https://google.com",
+    date: "2025",
+    title: "Paper Presented & Published",
+    company: "AutoDim at IEEE SETCOM 2025, Gandhinagar (IEEE Xplore)",
+    description: "Presented and published research on intelligent headlight beam controller.",
+  },
+  {
+    date: "2024",
+    title: "Contributor (Season 4)",
+    company: "Social Summer Of Code",
+    description: "Contributed to open source projects as part of a national coding initiative.",
   },
 ];
